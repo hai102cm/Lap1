@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="fontawesome-free-5.15.1-web/css/all.min.css">
+    <style>
+        .shopping-mall {
+            bottom: 20px;
+            font-variant: small-caps;
+        }
+
+        .shopping-mall>h1 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 50px;
+            color: white;
+            letter-spacing: .3px;
+            text-shadow: 0 0 2px #000000;
+            padding-bottom: 0px;
+            border-bottom: 1px dotted #535252;
+            margin: 0px;
+        }
+
+        .shopping-mall>h5 {
+            margin-top: 5px;
+            letter-spacing: .5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="row ml-1">
+            <div class="shopping-mall pt-4">
+                <h1>Online Shopping Mall</h1>
+                <h5>The center point of the professional programming </h5>
+            </div>
+            <img src="images/header-object.png" alt="img header" class="ml-auto mr-3">
+        </header>
+        <nav class="row" style="background-color: green;">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light col">
+                <!--Khi cửa sổ trình duyệt bị thu nhỏ thì sẽ hiển thị nút nhấn để hiển thị menu-->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Định nghĩa chi tiết của menu-->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="fas fa-home"></i> Trang Chủ <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-list-alt"></i> Giới Thiệu</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-phone"></i> Liên Hệ</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Góp Ý</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fas fa-question"></i> Hỏi Đáp</span></a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-user"></i> Tài khoản
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Đăng Nhập</a>
+                                <a class="dropdown-item" href="#">Quên Mật Khẩu</a>
+                                <a class="dropdown-item" href="#">Đăng Ký Thành Viên</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Đăng Xuất</a>
+                                <a class="dropdown-item" href="#">Đổi Mật Khẩu</a>
+                                <a class="dropdown-item" href="#">Cập Nhật </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Đơn Hàng </a>
+                                <a class="dropdown-item" href="#">Đã Mua Hàng </a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> <i class="fas fa-flag-usa"></i> English</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"> <img src="https://img.dantocmiennui.vn/t620/uploaddtmn//2017/4/17/quocky-1.gif" alt="icon-vn" style="width: 30px;"> Tiếng Việt</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </nav>
+        <section class="row">
+            <article class="col-9">
+                <!--Hiển thị một sản phẩm-->
+                <div class="card float-left m-3" style="width: 15rem;">
+                    <div class="card-header">
+                        <h1>Nokia</h1>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/computer.jpg" alt="computer" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <p>$200</p>
+                    </div>
+                </div>
+                <div class="card float-left m-3" style="width: 15rem;">
+                    <div class="card-header">
+                        <h1>Nokia</h1>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/computer.jpg" alt="computer" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <p>$200</p>
+                    </div>
+                </div>
+                <div class="card float-left m-3" style="width: 15rem;">
+                    <div class="card-header">
+                        <h1>Nokia</h1>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/computer.jpg" alt="computer" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <p>$200</p>
+                    </div>
+                </div>
+                <div class="card float-left m-3" style="width: 15rem;">
+                    <div class="card-header">
+                        <h1>Nokia</h1>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/computer.jpg" alt="computer" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <p>$200</p>
+                    </div>
+                </div>
+                <div class="card float-left m-3" style="width: 15rem;">
+                    <div class="card-header">
+                        <h1>Nokia</h1>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/computer.jpg" alt="computer" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <p>$200</p>
+                    </div>
+                </div>
+                <div class="card float-left m-3" style="width: 15rem;">
+                    <div class="card-header">
+                        <h1>Nokia</h1>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/computer.jpg" alt="computer" class="img-fluid">
+                    </div>
+                    <div class="card-footer">
+                        <p>$200</p>
+                    </div>
+                </div>
+            </article>
+            <aside class="col-3">
+                <div class="poly-cart mt-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-5">
+                                    <img src="images/shoppingcart.gif" alt="shoppingcart" class="img-fluid">
+                                </div>
+                                <ul class="col-7" style="list-style-type: none;">
+                                    <li>100 Item</li>
+                                    <li>$ 5.6</li>
+                                    <li><a href="#">View Cart</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--form dùng để nhập từ khóa để tìm kiếm-->
+                <div class="card mt-2">
+                    <div class="card-body">
+                        <form action="">
+                            <input type="text" name="" id="" class="form-control" placeholder="Keyword">
+                        </form>
+                    </div>
+                </div>
+                <!--Hiển thị danh sách chủng loại trên webside-->
+                <div class="card mt-2">
+                    <div class="card-header">
+                        <i class="fas fa-list"></i>
+                        Chủng Loại
+                    </div>
+                    <ul class="list-group">
+                        <li class="list-group-item">Nokia</li>
+                        <li class="list-group-item">Samsung</li>
+                        <li class="list-group-item">Sony</li>
+                        <li class="list-group-item">Apple</li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+        <footer class="row">
+            <div class="card col">
+                <div class="card-body">
+                    <p>FPT Polytechnic &copy; 2020, All rights reverved.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
